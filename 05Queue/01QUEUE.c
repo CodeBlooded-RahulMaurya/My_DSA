@@ -1,7 +1,7 @@
 //queue implementation using array 
 #include<stdio.h>
 #include<stdlib.h>
-#define MAX_SIZE 0
+#define MAX_SIZE 100
 int ar[MAX_SIZE];
 int front = -1, rear = -1;
 void Enqueue(int n){
